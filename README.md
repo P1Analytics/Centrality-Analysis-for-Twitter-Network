@@ -19,3 +19,14 @@ __closeness_centrality.py__ : calculate closeness for the each node in the graph
 
 __betweenness_centrality.py__ : calculate betweenness for each node in the graph 
 
+
+
+[1] [Centrality Wikipedia](https://en.wikipedia.org/wiki/Centrality)
+
+[2] [Centrality measures](http://www.dis.uniroma1.it/~bonifaci/semcn/centrality.pdf)
+
+[3] David Eppstein, Joseph Wang. [Fast Approximation of Centrality](http://www.dis.uniroma1.it/~bonifaci/semcn/Eppstein2004.pdf)
+
+[4] Ulrik Brandes. [A Faster Algorithm for Betweenness Centrality](http://www.algo.uni-konstanz.de/publications/b-fabc-01.pdf)
+
+[5] Matteo Riondato, Evgenios M. Kornaropoulos. [Fast Approximation of Betweenness Centrality through Sampling](http://www.dis.uniroma1.it/~bonifaci/semcn/Riondato2014.pdf)
