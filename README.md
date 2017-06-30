@@ -1,18 +1,21 @@
-Seminars in Social Networks and Markets -- Academic Year 2016/17
-Project Request :
+# Seminars in Social Networks and Markets -- Academic Year 2016/17
+## Project Request :
 
-Compute basic statistics (degree distribution) and advanced statistics (clustering coefficient, closeness/betweenness centrality, etc.) for one of the networks of the Stanford Large Network Dataset Collection. 
+### Compute basic statistics (degree distribution) and advanced statistics (clustering coefficient, closeness/betweenness centrality, etc.) for one of the networks of the Stanford Large Network Dataset Collection. 
 
-If the network is too large, you should use some approximation algorithm (see below for references). Visualize the results using a plotting software such as gnuplot, Gephi or R.
+### If the network is too large, you should use some approximation algorithm (see below for references). Visualize the results using a plotting software such as gnuplot, Gephi or R.
 
-Dataset : http://snap.stanford.edu/data/egonets-Twitter.html
+#### Dataset : http://snap.stanford.edu/data/egonets-Twitter.html
 
-AdjacencyList.py : create Adjacency List. Input: Twitter data files with name format:NodeId.edges. Output : in_degree.csv and out_degree.csv
+__centrality.pptx__ : related algorithms brief description and results for the measurements 
 
-degree_centrality.py : calculate in-degree and out-degree from in_degree.csv and out_degree.csv files 
+__AdjacencyList.py__ : create Adjacency List. _Input_: Twitter data files with name format:NodeId.edges. _Output_ : in_degree.csv and out_degree.csv
 
-closeness_centrality.py : calculate closeness for the echo node in the graph
+for the measurments : _Input_ in_degree.csv and out_degree.csv files 
 
-betweenness_centrality.py : calculate betweenness for each node in the graph 
+__degree_centrality.py__ : calculate in-degree and out-degree. 
 
-centrality.pptx : algorithms and results
+__closeness_centrality.py__ : calculate closeness for the each node in the graph
+
+__betweenness_centrality.py__ : calculate betweenness for each node in the graph 
+
