@@ -5,6 +5,10 @@
 
 ### If the network is too large, you should use some approximation algorithm (see below for references). Visualize the results using a plotting software such as gnuplot, Gephi or R.
 
+### Implement the fast approximation algorithm of Eppstein and Wang for closeness centrality and use it to compute the closeness centrality of the nodes of a large network.
+
+### Implement one of the fast approximation algorithms of Riondato and Kornaropoulos for betweenness centrality and use it to compute the betweenness centrality of the nodes of a large network.
+
 #### Dataset : http://snap.stanford.edu/data/egonets-Twitter.html
 
 __centrality.pptx__ : related algorithms brief description and results for the measurements 
